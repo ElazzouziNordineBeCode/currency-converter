@@ -35,10 +35,13 @@
         </form>
       </div>
       <?php
-      $inputEurusd = $_POST["input-eurusd"];
-      $sum = $inputEurusd * 1.04;
+      if (isset($_POST["input-eurusd"])) {
+        $inputEurusd = $_POST["input-eurusd"];
+        $sum = $inputEurusd * 1.04;
 
-      echo "<input id='result' type='number' name='sum' value=$sum><span>USD</span>";
+        echo "<input id='result' type='number' name='sum' value=$sum><span>USD</span>";
+      }
+
       ?>
 
     </div>

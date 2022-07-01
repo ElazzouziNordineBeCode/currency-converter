@@ -34,11 +34,15 @@
 
         </form>
       </div>
-      <?php
-      $inputEurgbp = $_POST["input-eurgbp"];
-      $sum = $inputEurgbp * 0.86;
 
-      echo "<input id='result' type='number' name='sum' value=$sum><span>GBP</span>";
+      <?php
+      if (isset($_POST["input-eurgbp"])) {
+        $inputEurgbp = $_POST["input-eurgbp"];
+        $sum = $inputEurgbp * 0.86;
+
+        echo "<input id='result' type='number' name='sum' value=$sum><span>GBP</span>";
+      }
+
       ?>
 
     </div>

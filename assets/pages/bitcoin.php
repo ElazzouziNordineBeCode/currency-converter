@@ -34,11 +34,15 @@
 
         </form>
       </div>
-      <?php
-      $inputEurBtc = $_POST["input-eurbtc"];
-      $sum = $inputEurBtc * 0.000053;
 
-      echo "<input id='result' type='number' name='sum' value=$sum><span>BTC</span>";
+      <?php
+      if (isset($_POST["input-eurbtc"])) {
+        $inputEurbtc = $_POST["input-eurbtc"];
+        $sum = $inputEurbtc * 0.000053;
+
+        echo "<input id='result' type='number' name='sum' value=$sum><span>BTC</span>";
+      }
+
       ?>
 
     </div>
