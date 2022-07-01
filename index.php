@@ -11,16 +11,16 @@
         <h1>Currency Converter App</h1>
         <p>Choose a currency</p>
         <div class="flags-img">
-          <a href="assets/pages/bitcoin.html">
+          <a href="assets/pages/bitcoin.php">
             <img src="assets/img/bitcoin.png" alt="logo currency">
           </a>
-          <a href="assets/pages/dollars.html">
+          <a href="assets/pages/dollars.php">
             <img src="assets/img/dollars.png" alt="logo currency">
           </a>
-          <a href="assets/pages/pound.html">
+          <a href="assets/pages/pound.php">
             <img src="assets/img/pound.png" alt="logo currency">
           </a>
-          <a href="assets/pages/rouble.html">
+          <a href="assets/pages/rouble.php">
             <img src="assets/img/rouble.png" alt="logo currency">
           </a>
         </div>
