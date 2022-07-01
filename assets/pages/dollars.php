@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="../css/bitcoin.css" />
+  <link rel="stylesheet" href="../css/dollars.css" />
   <title>Converter EUR - USD 💱</title>
 </head>
 

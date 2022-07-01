@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="../css/bitcoin.css" />
+  <link rel="stylesheet" href="../css/pound.css" />
   <title>Converter EUR - GBP 💱</title>
 </head>
 
